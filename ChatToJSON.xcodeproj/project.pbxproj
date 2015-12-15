@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013E9AC91C2044C40037ECA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E9AC81C2044C40037ECA5 /* AppDelegate.swift */; };
+		013E9ACB1C2044C40037ECA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E9ACA1C2044C40037ECA5 /* ViewController.swift */; };
+		013E9ACE1C2044C40037ECA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013E9ACC1C2044C40037ECA5 /* Main.storyboard */; };
+		013E9AD01C2044C40037ECA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013E9ACF1C2044C40037ECA5 /* Assets.xcassets */; };
+		013E9AD31C2044C40037ECA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */; };
+		013E9ADE1C2044C40037ECA5 /* ChatToJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E9ADD1C2044C40037ECA5 /* ChatToJSONTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013E9ADA1C2044C40037ECA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013E9ABD1C2044C40037ECA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013E9AC41C2044C40037ECA5;
+			remoteInfo = ChatToJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013E9AC51C2044C40037ECA5 /* ChatToJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatToJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013E9AC81C2044C40037ECA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		013E9ACA1C2044C40037ECA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		013E9ACD1C2044C40037ECA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013E9ACF1C2044C40037ECA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013E9AD21C2044C40037ECA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		013E9AD41C2044C40037ECA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013E9AD91C2044C40037ECA5 /* ChatToJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatToJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013E9ADD1C2044C40037ECA5 /* ChatToJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatToJSONTests.swift; sourceTree = "<group>"; };
+		013E9ADF1C2044C40037ECA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013E9AC21C2044C40037ECA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013E9AD61C2044C40037ECA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013E9ABC1C2044C40037ECA5 = {
+			isa = PBXGroup;
+			children = (
+				013E9AC71C2044C40037ECA5 /* ChatToJSON */,
+				013E9ADC1C2044C40037ECA5 /* ChatToJSONTests */,
+				013E9AC61C2044C40037ECA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013E9AC61C2044C40037ECA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013E9AC51C2044C40037ECA5 /* ChatToJSON.app */,
+				013E9AD91C2044C40037ECA5 /* ChatToJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013E9AC71C2044C40037ECA5 /* ChatToJSON */ = {
+			isa = PBXGroup;
+			children = (
+				013E9AC81C2044C40037ECA5 /* AppDelegate.swift */,
+				013E9ACA1C2044C40037ECA5 /* ViewController.swift */,
+				013E9ACC1C2044C40037ECA5 /* Main.storyboard */,
+				013E9ACF1C2044C40037ECA5 /* Assets.xcassets */,
+				013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */,
+				013E9AD41C2044C40037ECA5 /* Info.plist */,
+			);
+			path = ChatToJSON;
+			sourceTree = "<group>";
+		};
+		013E9ADC1C2044C40037ECA5 /* ChatToJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				013E9ADD1C2044C40037ECA5 /* ChatToJSONTests.swift */,
+				013E9ADF1C2044C40037ECA5 /* Info.plist */,
+			);
+			path = ChatToJSONTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013E9AC41C2044C40037ECA5 /* ChatToJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013E9AE21C2044C40037ECA5 /* Build configuration list for PBXNativeTarget "ChatToJSON" */;
+			buildPhases = (
+				013E9AC11C2044C40037ECA5 /* Sources */,
+				013E9AC21C2044C40037ECA5 /* Frameworks */,
+				013E9AC31C2044C40037ECA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatToJSON;
+			productName = ChatToJSON;
+			productReference = 013E9AC51C2044C40037ECA5 /* ChatToJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013E9AD81C2044C40037ECA5 /* ChatToJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013E9AE51C2044C40037ECA5 /* Build configuration list for PBXNativeTarget "ChatToJSONTests" */;
+			buildPhases = (
+				013E9AD51C2044C40037ECA5 /* Sources */,
+				013E9AD61C2044C40037ECA5 /* Frameworks */,
+				013E9AD71C2044C40037ECA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013E9ADB1C2044C40037ECA5 /* PBXTargetDependency */,
+			);
+			name = ChatToJSONTests;
+			productName = ChatToJSONTests;
+			productReference = 013E9AD91C2044C40037ECA5 /* ChatToJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013E9ABD1C2044C40037ECA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bjorn Ho";
+				TargetAttributes = {
+					013E9AC41C2044C40037ECA5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					013E9AD81C2044C40037ECA5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 013E9AC41C2044C40037ECA5;
+					};
+				};
+			};
+			buildConfigurationList = 013E9AC01C2044C40037ECA5 /* Build configuration list for PBXProject "ChatToJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013E9ABC1C2044C40037ECA5;
+			productRefGroup = 013E9AC61C2044C40037ECA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013E9AC41C2044C40037ECA5 /* ChatToJSON */,
+				013E9AD81C2044C40037ECA5 /* ChatToJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013E9AC31C2044C40037ECA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013E9AD31C2044C40037ECA5 /* LaunchScreen.storyboard in Resources */,
+				013E9AD01C2044C40037ECA5 /* Assets.xcassets in Resources */,
+				013E9ACE1C2044C40037ECA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013E9AD71C2044C40037ECA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013E9AC11C2044C40037ECA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013E9ACB1C2044C40037ECA5 /* ViewController.swift in Sources */,
+				013E9AC91C2044C40037ECA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013E9AD51C2044C40037ECA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013E9ADE1C2044C40037ECA5 /* ChatToJSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013E9ADB1C2044C40037ECA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013E9AC41C2044C40037ECA5 /* ChatToJSON */;
+			targetProxy = 013E9ADA1C2044C40037ECA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		013E9ACC1C2044C40037ECA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013E9ACD1C2044C40037ECA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013E9AD21C2044C40037ECA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013E9AE01C2044C40037ECA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013E9AE11C2044C40037ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013E9AE31C2044C40037ECA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatToJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bjorn-Ho.ChatToJSON";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		013E9AE41C2044C40037ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatToJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bjorn-Ho.ChatToJSON";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		013E9AE61C2044C40037ECA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatToJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bjorn-Ho.ChatToJSONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatToJSON.app/ChatToJSON";
+			};
+			name = Debug;
+		};
+		013E9AE71C2044C40037ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatToJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bjorn-Ho.ChatToJSONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatToJSON.app/ChatToJSON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013E9AC01C2044C40037ECA5 /* Build configuration list for PBXProject "ChatToJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013E9AE01C2044C40037ECA5 /* Debug */,
+				013E9AE11C2044C40037ECA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013E9AE21C2044C40037ECA5 /* Build configuration list for PBXNativeTarget "ChatToJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013E9AE31C2044C40037ECA5 /* Debug */,
+				013E9AE41C2044C40037ECA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		013E9AE51C2044C40037ECA5 /* Build configuration list for PBXNativeTarget "ChatToJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013E9AE61C2044C40037ECA5 /* Debug */,
+				013E9AE71C2044C40037ECA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013E9ABD1C2044C40037ECA5 /* Project object */;
+}
