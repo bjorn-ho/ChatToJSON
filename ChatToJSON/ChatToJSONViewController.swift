@@ -9,12 +9,19 @@
 import UIKit
 
 class ChatToJSONViewController: UIViewController {
-
+    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var generateJSONButton: UIButton!
+    @IBOutlet weak var contentTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        textView.text = "Type chat message here"
     }
 
-
+    @IBAction func buttonPressed(sender: UIButton) {
+        
+    }
 }
+
 

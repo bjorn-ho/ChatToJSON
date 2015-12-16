@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Chat ToJSON View Controller-->
@@ -15,11 +17,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7qK-rg-kb7" userLabel="Chat Text View">
+                                <rect key="frame" x="60" y="58" width="480" height="129"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MZV-nN-ODK"/>
+                                </connections>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIx-6D-cva">
+                                <rect key="frame" x="60" y="247" width="107.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Suk-YH-cxR" userLabel="JSON Text View">
+                                <rect key="frame" x="60" y="276" width="480" height="128.5"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqI-Nu-NRO">
+                                <rect key="frame" x="433" y="20" width="107" height="30"/>
+                                <state key="normal" title="Generate JSON"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nP4-Ji-s2k"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS9-C0-Guf">
+                                <rect key="frame" x="60" y="20" width="110" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Suk-YH-cxR" secondAttribute="bottom" constant="195" id="0a9-Qo-Wod"/>
+                            <constraint firstItem="7qK-rg-kb7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="1XL-5m-idK"/>
+                            <constraint firstItem="GS9-C0-Guf" firstAttribute="leading" secondItem="7qK-rg-kb7" secondAttribute="leading" id="4Qd-Ot-IRn"/>
+                            <constraint firstItem="GS9-C0-Guf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7fQ-TG-ksn"/>
+                            <constraint firstItem="Suk-YH-cxR" firstAttribute="height" secondItem="7qK-rg-kb7" secondAttribute="height" id="8D7-Wb-VEZ"/>
+                            <constraint firstItem="vIx-6D-cva" firstAttribute="leading" secondItem="Suk-YH-cxR" secondAttribute="leading" id="Fdb-8P-PzN"/>
+                            <constraint firstItem="vIx-6D-cva" firstAttribute="top" secondItem="7qK-rg-kb7" secondAttribute="bottom" constant="60" id="H3O-7B-Q95"/>
+                            <constraint firstItem="CqI-Nu-NRO" firstAttribute="top" secondItem="GS9-C0-Guf" secondAttribute="top" id="Ot1-1M-maE"/>
+                            <constraint firstItem="GS9-C0-Guf" firstAttribute="height" secondItem="CqI-Nu-NRO" secondAttribute="height" id="fWQ-wI-Idn"/>
+                            <constraint firstItem="CqI-Nu-NRO" firstAttribute="trailing" secondItem="7qK-rg-kb7" secondAttribute="trailing" id="hkI-3y-FSD"/>
+                            <constraint firstItem="Suk-YH-cxR" firstAttribute="width" secondItem="7qK-rg-kb7" secondAttribute="width" id="iKY-ah-C1z"/>
+                            <constraint firstItem="Suk-YH-cxR" firstAttribute="centerX" secondItem="7qK-rg-kb7" secondAttribute="centerX" id="izW-xW-FRm"/>
+                            <constraint firstItem="7qK-rg-kb7" firstAttribute="top" secondItem="GS9-C0-Guf" secondAttribute="bottom" constant="8" id="lmf-fN-ONr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7qK-rg-kb7" secondAttribute="trailing" constant="40" id="mVt-ri-9T5"/>
+                            <constraint firstItem="Suk-YH-cxR" firstAttribute="top" secondItem="vIx-6D-cva" secondAttribute="bottom" constant="8" id="rRL-Rx-GH1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentTextView" destination="Suk-YH-cxR" id="WIj-nx-MKg"/>
+                        <outlet property="generateJSONButton" destination="CqI-Nu-NRO" id="tw9-xO-2ry"/>
+                        <outlet property="textView" destination="7qK-rg-kb7" id="dAk-lc-eCw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="429"/>
         </scene>
     </scenes>
 </document>
