@@ -15,6 +15,7 @@
 		01FEC9561C3A84DB002CEED4 /* ChatMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */; };
 		01FEC9581C3A8CA5002CEED4 /* MentionExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */; };
 		01FEC95A1C3A9F98002CEED4 /* EmoticonExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */; };
+		01FEC95C1C3AA1E8002CEED4 /* LinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageParser.swift; sourceTree = "<group>"; };
 		01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionExtractor.swift; sourceTree = "<group>"; };
 		01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonExtractor.swift; sourceTree = "<group>"; };
+		01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */,
 				01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */,
 				01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */,
+				01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */,
 				013E9ACF1C2044C40037ECA5 /* Assets.xcassets */,
 				013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */,
 				013E9AD41C2044C40037ECA5 /* Info.plist */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FEC95C1C3AA1E8002CEED4 /* LinkExtractor.swift in Sources */,
 				013E9ACB1C2044C40037ECA5 /* ChatToJSONViewController.swift in Sources */,
 				01FEC9561C3A84DB002CEED4 /* ChatMessageParser.swift in Sources */,
 				013E9AC91C2044C40037ECA5 /* AppDelegate.swift in Sources */,

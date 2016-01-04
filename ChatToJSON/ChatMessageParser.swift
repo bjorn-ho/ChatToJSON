@@ -20,6 +20,7 @@ class ChatMessageParser {
     init() {
         contentExtractors.append(MentionExtractor())
         contentExtractors.append(EmoticonExtractor())
+        contentExtractors.append(LinkExtractor())
     }
     
     func parseContent(message: String) -> String? {
