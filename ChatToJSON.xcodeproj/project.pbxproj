@@ -13,6 +13,7 @@
 		013E9AD01C2044C40037ECA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013E9ACF1C2044C40037ECA5 /* Assets.xcassets */; };
 		013E9AD31C2044C40037ECA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */; };
 		01FEC9561C3A84DB002CEED4 /* ChatMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */; };
+		01FEC9581C3A8CA5002CEED4 /* MentionExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		013E9AF61C218B8A0037ECA5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		013E9AF71C218B8A0037ECA5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageParser.swift; sourceTree = "<group>"; };
+		01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				013E9ACA1C2044C40037ECA5 /* ChatToJSONViewController.swift */,
 				013E9ACC1C2044C40037ECA5 /* Main.storyboard */,
 				01FEC9551C3A84DB002CEED4 /* ChatMessageParser.swift */,
+				01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */,
 				013E9ACF1C2044C40037ECA5 /* Assets.xcassets */,
 				013E9AD11C2044C40037ECA5 /* LaunchScreen.storyboard */,
 				013E9AD41C2044C40037ECA5 /* Info.plist */,
@@ -219,6 +222,7 @@
 				013E9ACB1C2044C40037ECA5 /* ChatToJSONViewController.swift in Sources */,
 				01FEC9561C3A84DB002CEED4 /* ChatMessageParser.swift in Sources */,
 				013E9AC91C2044C40037ECA5 /* AppDelegate.swift in Sources */,
+				01FEC9581C3A8CA5002CEED4 /* MentionExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +427,7 @@
 				013E9AE41C2044C40037ECA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013E9AE51C2044C40037ECA5 /* Build configuration list for PBXNativeTarget "ChatToJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				013E9AE71C2044C40037ECA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
