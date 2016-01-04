@@ -13,6 +13,8 @@ class ChatToJSONViewController: UIViewController {
     @IBOutlet weak var generateJSONButton: UIButton!
     @IBOutlet weak var contentTextView: UITextView!
     
+    let chatParser = ChatMessageParser()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,7 +22,9 @@ class ChatToJSONViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(sender: UIButton) {
-        
+        if let specialContent = chatParser.parseContent(textView.text) {
+            contentTextView.text = specialContent
+        }
     }
 }
 
