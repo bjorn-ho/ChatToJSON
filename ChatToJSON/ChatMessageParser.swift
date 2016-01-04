@@ -28,7 +28,10 @@ class ChatMessageParser {
         
         do {
             let jsonData = try NSJSONSerialization.dataWithJSONObject(json, options: .PrettyPrinted)
-            return NSString(data: jsonData, encoding: NSUTF8StringEncoding) as? String
+            if let jsonString = NSString(data: jsonData, encoding: NSUTF8StringEncoding) {
+                // sanitise the output since the slashes could be escaped
+                return jsonString.stringByReplacingOccurrencesOfString("\\/", withString: "/")
+            }
         }
         catch {
             fatalError("Error: \(error)")
