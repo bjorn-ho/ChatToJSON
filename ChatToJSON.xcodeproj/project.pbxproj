@@ -16,6 +16,9 @@
 		01FEC9581C3A8CA5002CEED4 /* MentionExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */; };
 		01FEC95A1C3A9F98002CEED4 /* EmoticonExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */; };
 		01FEC95C1C3AA1E8002CEED4 /* LinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */; };
+		01FEC95E1C3D352C002CEED4 /* MentionExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */; };
+		01FEC9601C3D3C1F002CEED4 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 013E9AF61C218B8A0037ECA5 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01FEC9611C3D3C1F002CEED4 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 013E9AF71C218B8A0037ECA5 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,7 @@
 		01FEC9571C3A8CA5002CEED4 /* MentionExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionExtractor.swift; sourceTree = "<group>"; };
 		01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonExtractor.swift; sourceTree = "<group>"; };
 		01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkExtractor.swift; sourceTree = "<group>"; };
+		01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionExtractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				013E9ADF1C2044C40037ECA5 /* Info.plist */,
+				01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */,
 			);
 			path = ChatToJSONTests;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FEC95E1C3D352C002CEED4 /* MentionExtractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
