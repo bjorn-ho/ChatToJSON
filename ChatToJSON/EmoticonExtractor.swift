@@ -21,10 +21,12 @@ class EmoticonExtractor: JSONContentExtractable {
     func extractJSONContent(string: String) -> [AnyObject]? {
         var emoticons = [String]()
         
+        // Find all emoticons based on the regex of emoticons
         let results = emoticonRegex.matchesInString(string, options: [], range: string.nsrange)
         
         guard results.count > 0 else { return nil }
         
+        // strip out the parentheses before adding to the list
         for result in results {
             emoticons.append(string.substringFromNSRange(result.rangeAtIndex(1)))
         }

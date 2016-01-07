@@ -21,13 +21,17 @@ class LinkExtractor: JSONContentExtractable {
     func extractJSONContent(string: String) -> [AnyObject]? {
         var links = [[String : String]]()
         
+        // Find all links using the simple naive regex for links
         let results = simpleLinkRegex.matchesInString(string, options: [], range: string.nsrange)
         
         guard results.count > 0 else { return nil }
         
         for result in results {
+            // Get the link
             let link = string.substringFromNSRange(result.range)
             
+            // If an NSURL instance can be constructed, we will try to retrieve the webpage source and find for
+            // the `title` tag to get the title of the webpage.
             var title: String? = nil
             if let url = NSURL(string: link) {
                 do {

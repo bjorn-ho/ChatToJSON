@@ -21,10 +21,12 @@ class MentionExtractor: JSONContentExtractable {
     func extractJSONContent(string: String) -> [AnyObject]? {
         var mentions = [String]()
         
+        // Find all mentions based on the regex pattern
         let results = mentionRegex.matchesInString(string, options: [], range: string.nsrange)
         
         guard results.count > 0 else { return nil }
         
+        // strip out the @ sign before adding to the list
         for result in results {
             mentions.append(string.substringFromNSRange(result.rangeAtIndex(1)))
         }
