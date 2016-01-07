@@ -19,6 +19,7 @@
 		01FEC95E1C3D352C002CEED4 /* MentionExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */; };
 		01FEC9601C3D3C1F002CEED4 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 013E9AF61C218B8A0037ECA5 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		01FEC9611C3D3C1F002CEED4 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 013E9AF71C218B8A0037ECA5 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01FEC9651C3E8FF4002CEED4 /* ChatMessageParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEC9641C3E8FF4002CEED4 /* ChatMessageParserTests.swift */; };
 		CD15DEEC1C3DD34F00646B44 /* EmoticonExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15DEEB1C3DD34F00646B44 /* EmoticonExtractorTests.swift */; };
 		CD15DEEE1C3DD7E800646B44 /* LinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15DEED1C3DD7E800646B44 /* LinkExtractor.swift */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		01FEC9591C3A9F98002CEED4 /* EmoticonExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonExtractor.swift; sourceTree = "<group>"; };
 		01FEC95B1C3AA1E8002CEED4 /* LinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkExtractor.swift; sourceTree = "<group>"; };
 		01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionExtractorTests.swift; sourceTree = "<group>"; };
+		01FEC9641C3E8FF4002CEED4 /* ChatMessageParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageParserTests.swift; sourceTree = "<group>"; };
 		CD15DEEB1C3DD34F00646B44 /* EmoticonExtractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonExtractorTests.swift; sourceTree = "<group>"; };
 		CD15DEED1C3DD7E800646B44 /* LinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 				01FEC95D1C3D352C002CEED4 /* MentionExtractorTests.swift */,
 				CD15DEEB1C3DD34F00646B44 /* EmoticonExtractorTests.swift */,
 				CD15DEED1C3DD7E800646B44 /* LinkExtractor.swift */,
+				01FEC9641C3E8FF4002CEED4 /* ChatMessageParserTests.swift */,
 			);
 			path = ChatToJSONTests;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FEC9651C3E8FF4002CEED4 /* ChatMessageParserTests.swift in Sources */,
 				CD15DEEE1C3DD7E800646B44 /* LinkExtractor.swift in Sources */,
 				CD15DEEC1C3DD34F00646B44 /* EmoticonExtractorTests.swift in Sources */,
 				01FEC95E1C3D352C002CEED4 /* MentionExtractorTests.swift in Sources */,
