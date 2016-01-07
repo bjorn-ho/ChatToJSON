@@ -50,7 +50,7 @@ class LinkExtractor: JSONContentExtractable {
             }
             
             var dict = [String : String]()
-            dict["link"] = link
+            dict["url"] = link
             dict["title"] = title
             links.append(dict)
         }

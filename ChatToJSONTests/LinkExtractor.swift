@@ -37,7 +37,7 @@ class LinkExtractorTests: QuickSpec {
                     expect(links).to(haveCount(1))
                     
                     let linkDic = links[0]
-                    expect(linkDic["link"]).to(match("https://www.twitter.com"))
+                    expect(linkDic["url"]).to(match("https://www.twitter.com"))
                 }
                 
                 it("should return a list of links if there are more than one and in any order") {
@@ -48,7 +48,7 @@ class LinkExtractorTests: QuickSpec {
                     
                     expect(links).to(haveCount(2))
                     
-                    for (expectation, link) in zip(correctLinks, links.map { $0["link"] }) {
+                    for (expectation, link) in zip(correctLinks, links.map { $0["url"] }) {
                         expect(link).to(match(expectation))
                     }
                 }

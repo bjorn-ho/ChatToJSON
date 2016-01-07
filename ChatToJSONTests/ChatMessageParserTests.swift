@@ -36,7 +36,7 @@ class ChatMessageParserTests: QuickSpec {
                 
                 expect(content["links"]).toNot(beNil())
                 let links = content["links"] as! [[String : String]]
-                expect(links).to(equal([["link":"http://deathstarplans.com", "title":"DeathStarPlans.com"]]))
+                expect(links).to(equal([["url":"http://deathstarplans.com", "title":"DeathStarPlans.com"]]))
             }
         }
     }
